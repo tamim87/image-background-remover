@@ -1,6 +1,7 @@
 # Image Background Removal with Rembg
 
-This project uses the **Rembg** library to remove the background from images. 
+This project uses the **Rembg** library to remove the background from images.
+
 <!-- It also supports running inside a Docker container to easily deploy the functionality. -->
 
 ## Features
@@ -34,8 +35,9 @@ check this [link](https://docs.astral.sh/uv/#highlights) for details on `uv`
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/tamim87/image-background-removal.git
-cd image-background-removal
+# git clone https://github.com/tamim87/image-background-remover.git
+git clone git@github.com:tamim87/image-background-remover.git
+cd image-background-remover
 ```
 
 ### 2. Create and activate the virtual environment (Linux/macOS)
