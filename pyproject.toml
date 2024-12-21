@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "background-image-remover"
+version = "0.1.0"
+description = "A image background remover using rembg and u2net model"
+dependencies = [
+    "rembg>=2.0.61",
+    "numba>=0.57.0",
+    "pillow>=11.0.0",
+    "onnxruntime>=1.20.01",
+
+    # lint
+    "ruff>=0.8.4",
+]
