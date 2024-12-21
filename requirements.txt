@@ -32,7 +32,7 @@ networkx==3.4.2
     # via scikit-image
 numba==0.60.0
     # via
-    #   your-project (pyproject.toml)
+    #   background-image-remover (pyproject.toml)
     #   pymatting
 numpy==2.0.2
     # via
@@ -46,7 +46,7 @@ numpy==2.0.2
     #   scipy
     #   tifffile
 onnxruntime==1.20.1
-    # via your-project (pyproject.toml)
+    # via background-image-remover (pyproject.toml)
 opencv-python-headless==4.10.0.84
     # via rembg
 packaging==24.2
@@ -57,7 +57,7 @@ packaging==24.2
     #   scikit-image
 pillow==11.0.0
     # via
-    #   your-project (pyproject.toml)
+    #   background-image-remover (pyproject.toml)
     #   imageio
     #   pymatting
     #   rembg
@@ -75,7 +75,7 @@ referencing==0.35.1
     #   jsonschema
     #   jsonschema-specifications
 rembg==2.0.61
-    # via your-project (pyproject.toml)
+    # via background-image-remover (pyproject.toml)
 requests==2.32.3
     # via pooch
 rpds-py==0.22.3
@@ -83,7 +83,7 @@ rpds-py==0.22.3
     #   jsonschema
     #   referencing
 ruff==0.8.4
-    # via your-project (pyproject.toml)
+    # via background-image-remover (pyproject.toml)
 scikit-image==0.25.0
     # via rembg
 scipy==1.14.1
